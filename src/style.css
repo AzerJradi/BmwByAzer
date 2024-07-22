@@ -1,0 +1,797 @@
+/* General Styles */
+#navPhoto {
+    width: 50px;
+}
+
+#navvPhoto {
+    width: 80px;
+}
+
+#navImgs {
+    margin-right: -75px;
+}
+
+/* Button Styles */
+.btnFiltred {
+    width: 45%;
+    border: 1px solid black;
+    border-radius: 0;
+}
+
+.btnFiltred:hover {
+    border: 2px solid black;
+}
+
+.btnFiltredd {
+    width: 45%;
+    border: none;
+    border-radius: 0;
+    margin-left: 32.5%;
+    margin-top: -65px;
+}
+
+.btnFiltredd:hover {
+    background: transparent;
+}
+
+/* Filtered Image Styles */
+.filtredImg,
+.filtredImgg,
+.filtredImggg,
+.filtredImgggg,
+.filtredImggggg {
+    margin-top: -15px;
+}
+
+.filtredImg {
+    margin-top: -22px;
+}
+
+.filtredImgggg {
+    margin-left: -5px;
+}
+
+.filtredImggggg {
+    margin-left: -5px;
+}
+
+/* Filtered Type Styles */
+.typeFiltred,
+.typeFiltredd,
+.typeFiltreddd,
+.typeFiltredddd,
+.typeFiltreddddd {
+    margin-left: 35px;
+    margin-top: -40px;
+}
+
+.typeFiltred {
+    margin-left: 55px;
+    margin-top: -43px;
+}
+
+.typeFiltredd {
+    margin-top: -35px;
+}
+
+.typeFiltreddd {
+    margin-left: 40px;
+    margin-top: -35px;
+}
+
+/* Section Styles */
+.bigSectionOne {
+    border-bottom: 1px solid #BBBBBB;
+    padding-left: 25px;
+    width: 107%;
+    margin-left: -25px;
+}
+
+.bigSectionTwo {
+    margin-top: 25px;
+}
+
+/* Filtered Section Styles */
+.filtreSection {
+    box-shadow: 1px 1px 16px 14px rgba(0, 0, 0, 0.75);
+    margin-left: 25%;
+    margin-top: -250px;
+    background: white;
+    width: 50%;
+    height: 550px;
+    padding: 25px;
+    position: absolute;
+    z-index: 1;
+}
+
+.closeFiltre {
+    margin-left: 94%;
+    margin-top: -165px;
+}
+
+.FIrstSectionFiltred,
+.SecSectionFiltred {
+    display: flex;
+    flex-direction: row;
+}
+
+.SecSectionFiltred {
+    margin-top: 25px;
+}
+
+.titleFiltred {
+    font-size: 36px;
+}
+
+.SectitleFiltred {
+    font-size: 28px;
+}
+
+/* Checkbox Container Styles */
+.container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    user-select: none;
+}
+
+.container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+}
+
+.container:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+
+.container input:checked ~ .checkmark {
+    background-color: #2196F3;
+}
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.container input:checked ~ .checkmark:after {
+    display: block;
+}
+
+.checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    transform: rotate(45deg);
+}
+
+/* Navbar Styles */
+#whitenav {
+    background: transparent;
+    margin-left: 75px;
+    padding-bottom: -25px;
+    border-bottom: 1px solid #BBBBBB;
+    padding-left: 5px;
+    padding-right: 75px;
+
+}
+
+.bg-body-tertiary {
+    width: 100%;
+}
+
+.bg-red {
+    background-color: transparent !important;
+}
+
+/* Car Display Styles */
+.Allcars {
+    margin: 25px 10%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.allCars {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.model {
+    width: 23%;
+    margin: 0px 10px;
+}
+
+.CarImg {
+    width: 100%;
+}
+
+/* Header Styles */
+h2 {
+    margin-top: 35px;
+    margin-left: 10px;
+    padding-top: 25px;
+    width: 98%;
+}
+
+/* Navigation Styles */
+.FamilyNavs {
+    margin-top: 25px;
+    margin-left: 10%;
+    margin-bottom: -61px;
+}
+
+/* Title Styles */
+.firstTitle {
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+    font-weight: 100;
+    font-size: 72px;
+    margin-left: 10%;
+}
+
+.secondTitle {
+    font-family: "Andalé Mono", sans-serif;
+    font-size: 28px;
+    font-weight: lighter;
+    margin-left: 10%;
+}
+
+/* Filter Styles */
+.allFilters {
+    display: flex;
+    flex-direction: column;
+}
+
+.firstDivFiltred {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#container {
+    width: 50%;
+    justify-content: space-evenly;
+}
+
+.seeAll {
+    border: transparent;
+    background: transparent;
+    font-weight: 700;
+    margin-left: 9.5%;
+}
+
+/* Badge Styles */
+.new {
+    background: #4D4D4D;
+    height: 20px;
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-left: 85%;
+    position: relative;
+    top: 50px;
+    align-items: center;
+}
+
+.notNew {
+    background: transparent;
+    color: transparent;
+}
+
+/* Margin Adjustment */
+.m {
+    margin-left: -12%;
+}
+
+/* Car Information Styles */
+.carName,
+.typeCar,
+.carPrice {
+    margin-bottom: -0px;
+}
+
+.carPrice {
+    margin-bottom: -20px;
+}
+.bigDivOne{
+    background: #F6F6F6;
+}
+.bottomNav{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+.BottomOne{
+    display: flex;
+    flex-direction: column;
+}
+.linkto{
+    color: #4D4D4D;
+    text-decoration: none;
+    font-weight: 500;
+    margin-top: -10px;
+    margin-bottom: 25px
+}
+.Part2NAav{
+    margin-top: 25px;
+    margin-left: 6.5%;
+    display: flex;
+    flex-direction: row;
+    padding: 0 auto;
+}
+.socialMedia{
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+}
+.bigDivTow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 25px;
+}
+.LAstDivBottomNav{
+    margin-left: 300px;
+    width: 60%;
+}
+#linkto{
+    margin-right: 20px;
+    font-size: 10px;
+    font-weight: bolder;
+}
+.tagBottom{
+    font-size: 20px;
+    margin-left: 100px;
+    width: 40%;
+    color: #262626;
+}
+
+.BigSectionBtw{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 10%;
+}
+.FirstDivBtw{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border-bottom: #E6E6E6 1px solid;
+    width: 60%;
+}
+.SecDivBtw{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border-bottom: #E6E6E6 1px solid;
+    width: 60%;
+    margin-left: 5px;
+}
+.ThirdDivBtw{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border-bottom: #E6E6E6 1px solid;
+    width: 60%;
+}
+.FourthDivBtw{
+    margin-left: -14.2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-left: -6.5%;
+    width: 60%;
+}
+#lastChoiceInBtw{
+    position: relative;
+    left: -85px
+}
+.SecDesChoice{
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    color: #555555;
+    text-decoration: underline 2px white;
+}
+.firstTitleBtw{
+
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: none;
+}
+#firstTitleBtw{
+    margin-left: 9.5%;
+}
+.firstDescBtw{
+    color: black;
+    margin-left: 10%;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 18px;
+    margin-bottom: 75px;
+}
+.SecTitleBtw{
+    margin-left: 10%;
+    font-size: 42px;
+}
+#SecDesChoice{
+    margin-left: 17%;
+}
+.between{
+    border-bottom: #E6E6E6 1px solid;
+    margin-bottom: 100px;
+    padding-bottom: 75px;
+}
+.secBtw{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    width: 20%;
+    font-size: 16px;
+    margin-top: -50px;
+    margin-bottom: 40px;
+    margin-left: 2.5%;
+}
+.FindYouRBmw{
+    font-size: 14px;
+}
+.allModelsBtw{
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+}
+.vehiculesFound{
+    font-weight: normal;
+    margin-top: 25px;
+}
+.btnNavFam{
+    background: transparent;
+    border: none;
+    font-weight: bold;
+    font-size: 16px;
+    margin-right: 25px;
+}
+.navFam{
+    padding-left: 10%;
+    margin-bottom: -66px;
+    margin-top: 25px;
+    border-bottom: 1px #BBBBBB solid;
+}
+.btnNavFam:hover {
+    border-bottom: 5px solid #BBBBBB;
+}
+.vidTopHome{
+    margin-top: -120px;
+} 
+.zoom-video {
+    width: 100%;
+    margin-top: -120px;
+    transform-origin: center center; /* Ensure the zoom is centered */
+}
+.navvPhoto{
+    border-radius: 47% ;
+}
+.whiteNavNames{
+    color: white;
+}
+.AllWhatIsInsideOfTheHomeVid{
+    color: white;
+    position: relative;
+    top: -500px;
+    margin-left: 5%;
+    font-size: 42px;
+}
+.pleasure{
+    font-size: 16px;
+    position: relative;
+    top: -250px;
+}
+.homeVidBtn{
+    border: none;
+    background: #1C69D4;
+    color: white;
+    font-size: 16px;
+    padding: 12.5px 60px;
+    font-weight: bold;
+}
+.AllTheThree{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.SecondSectionHomeName{
+    margin-left: 175px;
+    margin-top: -15px;
+    font-size: 28px;
+}
+#SecondSectionHomeName{
+    margin-left: 110px;
+}
+.SecondSectionHomeBtn{
+    margin-left: 165px;
+    margin-bottom: 50px;
+    margin-top: 25px;
+    padding: 10px 20px;
+    background: transparent;
+    font-weight: bold;
+    border-radius: 4px;
+}
+.SecondSectionHomeBtn:hover{
+    border: 3px black solid;
+}
+#SecondSectionHomeBtn{
+    margin-left: 110px;
+}
+.PurchaseProect{
+    margin-left: 43.5%;
+    margin-top: -220px;
+    font-size: 16px;
+}
+.FindUrBMWhome{
+    font-size: 46px;
+    margin-left: 38%;
+    margin-top: -10px;
+}
+.M5Page{
+    position: relative;
+    top: -450px;
+    margin-left: 10%;
+    margin-bottom: -320px;
+    color: white;
+}
+.TheNew{
+    font-size: 40px;
+    font-weight: lighter;
+    margin-left: -50px;
+}
+.M5{
+    margin-top: -120px;
+    font-size: 14rem;
+    margin-left: -50px;
+    font-weight: 200;
+}
+.M5Homepage{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: -75px;
+    margin-left: -50px;
+}
+.NewBmwHomePage{
+    position: relative;
+    top: 10px;
+
+    font-size: 24px;
+    font-weight: 300;
+}
+.Discovernow{
+    background: transparent;
+    color: white;
+    border: 1px white solid;
+    padding: 15px 50px;
+    margin-left: -30px;
+    margin-top: 25px;
+    font-weight: bold;
+}
+.l3Homepage{
+    position: relative;
+    top: -150px;
+    margin-bottom: -100px;
+    color: white;
+    margin-left: 9%;
+}
+#l4SectionOfHomepeage{
+    margin-top: -50px;
+}
+#l5SectionOfHomepeage{
+    margin-top: -25px;
+}
+.l3sectionTitle{
+    font-size: 32px;
+    font-weight: 400;
+    margin-bottom: -15px;
+}
+.EnjoyNowHomePageBtn{
+    background: transparent;
+    color: white;
+    border: 1px white solid;
+    padding: 15px 130px;
+    font-weight: bold;
+}
+.l4SectionOfHomepeage{
+    position: relative;
+    top: -350px;
+    margin-bottom: -150px;
+    color: white;
+    margin-left: 10%;
+}
+.DiscoverNow{
+    background: transparent;
+    color: white;
+    border: 1px white solid;
+    padding: 10px 100px;
+    font-weight: bold;
+}
+.l5SectionOfHomepeage{
+    position: relative;
+    top: -325px;
+    color: white;
+    margin-left: 10%;
+}
+.l4sectionTitle{
+    font-size: 14px;
+    font-weight: 400;
+
+}
+.l5sectionTitle{
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: -10px;
+}
+.BottomOfCarsHome{
+    display: flex;
+    flex-direction: row;
+    margin-left: 7.5%;
+}
+.SecondSectionOfBottomOfCarsHome{
+    margin-left: 25px;
+    margin-top: 50px;
+}
+.ButtonsOfSecondSectionOfBottomOfCarsHome{
+    display: flex;
+    flex-direction: row;
+}
+.firstInSecondSectionOfBottomOfCarsHome{
+    font-weight: 400;
+}
+.SecInSecondSectionOfBottomOfCarsHome{
+    font-size: 32px;
+    font-weight: 400;
+}
+.ThirdInSecondSectionOfBottomOfCarsHome{
+    font-weight: 400;
+    font-size: 18px;
+}
+.FirstButtonOfSecondSectionOfBottomOfCarsHome{
+    width: 30%;
+    padding: 12px 10px;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 14px;
+    background: white;
+}
+.SecButtonOfSecondSectionOfBottomOfCarsHome{
+    width: 30%;
+    padding: 12px 10px;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 14px;
+    background: #1C69D4;
+    border: none;
+    color: white;
+    margin-left: 10px;
+}
+.SoMuchTalk{
+
+    padding-left: 7.5%;
+    margin-top: 50px;
+    border-bottom: #4D4D4D 1px solid;
+    margin-bottom: 50px;
+}
+.TalkTitle{
+    font-size: 32px;
+    font-weight: 400;
+
+}
+.TalkSousTitre{
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: -0.3px;
+    width: 97%;
+}
+.TalkBold{
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: -15px;
+    margin-bottom: 25px;
+}
+.hashtagsTalk{
+    margin-top: -10px;
+    font-weight: bolder;
+}
+.FirstSectioBfrBottomNav{
+    display: flex;
+    flex-direction: row;
+    font-size: 14px;
+    margin-bottom: 50px;
+    margin-left: 10px;
+}
+.FirstSectioBfrBottomNavP{
+    margin-left: 10px;
+    font-weight: bold;
+}
+.FirstSectioBfrBottomNavP:hover{
+    color: blue;
+}
+.whiteNavName{
+    background: red;
+    position: absolute;
+    z-index: 1;
+}
+.ElceeticRAngeImgBig{
+    margin-top: -20px
+}
+.FirstElceeticRAngePBig{
+    font-size: 52px;
+    position: relative;
+    top: -565px;
+    margin-left: 5%;
+    color: white;
+}
+.SecElceeticRAngePBig{
+    font-size: 28px;
+    font-weight:300;
+    position: relative;
+    top: -575px;
+    margin-left: 5%;
+    color: white;
+}
+.ToMuchTalksInElectricRange{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: -25px;
+    margin-bottom: 100px;
+    font-size: 17px;
+    font-weight: 400;
+}
+.AllElectricNavButtons{
+    margin-bottom: 100px;
+    border-bottom: 1px #555555 solid;
+    padding: 25px 15% 25px 10%;
+    display: flex;
+    justify-content: space-between;
+}
+.ElectricNavButtons{
+    background: transparent;
+    border: none;
+    color: #787878;
+    font-weight: 500;
+}
+.ElectricNavButtons:hover{
+    color: black;
+    border-bottom: 4px #1C69D4 solid;
+    margin-bottom: -4px;
+}
+.SecondTitleInElectricRange{
+    width: 90%;
+    margin-left: 10%;
+    margin-top: -85px;
+    padding-bottom: 20px;
+    font-size: 32px;
+    font-weight: 300;
+    border-bottom: 1px #555555 solid;
+}
